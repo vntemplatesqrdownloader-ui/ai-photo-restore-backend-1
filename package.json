@@ -1,13 +1,18 @@
 {
-  "name":"ai-photo-restore-backend",
-  "version":"1.0.0",
-  "main":"server.js",
-  "type":"module",
-  "scripts":{"start":"node server.js"},
-  "dependencies":{
-    "cors":"^2.8.5","dotenv":"^16.0.3","express":"^4.18.2",
-    "form-data":"^4.0.0","multer":"^1.4.5",
-    "node-fetch":"^3.3.2","rembg-node":"^1.0.3",
-    "replicate":"^0.26.0","sharp":"^0.33.0","uuid":"^9.0.0"
+  "name": "ai-photo-restore-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": { "start": "node server.js" },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "form-data": "^4.0.0",
+    "multer": "^1.4.5",
+    "node-fetch": "^3.3.2",
+    "replicate": "^0.26.0",
+    "sharp": "0.30.7",
+    "uuid": "^9.0.0"
   }
 }
